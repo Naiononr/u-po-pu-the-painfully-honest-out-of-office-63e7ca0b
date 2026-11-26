@@ -15,7 +15,7 @@ The line is written to be judged on the competition's own brief:
      complaint about the job.
   4. It is one sentence, well inside 200 characters, with no cramming.
   5. It lands with a turn a reader would quote: replies come "in the
-     order your emails still matter when I'm back".
+     order your emails survive my return".
 
 Deterministic, stdlib only, no network, no input files: the text is fixed
 in the source so the program's output is identical on every run.
@@ -25,7 +25,7 @@ import os
 
 LINE = (
     "I'm out of the office this week, and my inbox is already 400 deep "
-    "\u2014 I'll reply in the order your emails still matter when I'm back."
+    "\u2014 I'll reply in the order your emails survive my return."
 )
 
 OUTPUT_PATH = "/output/entry.txt"
